@@ -52,3 +52,25 @@ primeNumbers = [3, 5, 7, 11]
 morePrimes = primeNumbers ++ [13, 17, 19 , 23, 29]
 -- Using cons operator to construct a list 
 favNums = 2 : 7 : 21 : 66 : []
+-- 2d list or list of lists
+multiList = [[1, 2, 3], [4, 5, 6]]
+-- Add items to the front of a list 
+morePrimes2 = 2 : morePrimes
+-- Get the length of a list
+lenPrimes = length primeNumbers
+-- Reverse a list 
+revPrimes = reverse morePrimes
+-- Check if list is empty
+isListEmpty = null morePrimes
+-- Get number at index 2 of list
+secondPrime = morePrimes !! 1
+-- Get first number of the list
+firstPrime = head morePrimes
+-- Get the last number of the list 
+lastPrime = last morePrimes
+-- Get everything but the last value on the list
+primeInit = init morePrimes
+-- Get the first three values of the list
+firstThree = take 3 morePrimes
+-- Remove three values from the front of the list
+removedThree = drop 3 morePrimes2
