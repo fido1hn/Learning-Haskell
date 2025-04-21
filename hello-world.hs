@@ -14,6 +14,7 @@ always5 :: Int
 always5 = 5
 
 -- Math expressions
+-- Get sum of values
 sumOf1000 = sum [1..1000]
 addEx = 5 + 4
 subEx = 5 - 4
@@ -74,3 +75,20 @@ primeInit = init morePrimes
 firstThree = take 3 morePrimes
 -- Remove three values from the front of the list
 removedThree = drop 3 morePrimes2
+
+
+-----
+-- Check if element is in list
+is7inList = 7 `elem` morePrimes2
+-- Get the max value from a list 
+maxPrime = maximum morePrimes2
+-- Get the min value from a list
+minPrime = minimum morePrimes2
+-- Get the product of items in a list
+productPrimes = product morePrimes2
+-- List generation
+listOfTen = [1..10]
+-- Gen list with a step
+evenList = [2, 4..20]
+-- Generate chars list with step
+charsList = ['A', 'C'..'Z']
