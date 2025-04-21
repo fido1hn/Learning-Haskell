@@ -45,3 +45,10 @@ floorValOf9 = floor 9.9999
 trueAndFalse = True && False
 trueOrFalse = True || False
 notTrue = not(True)
+
+-- Lists / Arrays 
+primeNumbers = [3, 5, 7, 11]
+-- Concatenate two list with 
+morePrimes = primeNumbers ++ [13, 17, 19 , 23, 29]
+-- Using cons operator to construct a list 
+favNums = 2 : 7 : 21 : 66 : []
